@@ -1,0 +1,9 @@
+{
+	"name": "ADFhumana",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "c03a3058-070b-4be0-98eb-5157195f07ad",
+		"tenantId": "e271239c-9211-4acb-b8b5-aed6e0137de7"
+	}
+}

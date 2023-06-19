@@ -1,0 +1,7 @@
+{
+	"name": "OnpremMsSqltoDatalake",
+	"properties": {
+		"type": "SelfHosted",
+		"description": "Moving data from ON prem Sql to Datalake"
+	}
+}

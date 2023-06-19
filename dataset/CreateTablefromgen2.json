@@ -1,0 +1,25 @@
+{
+	"name": "CreateTablefromgen2",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "DatalakeGen2LS",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "DelimitedText",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"fileName": "Metadata.csv",
+				"folderPath": "CSVFIles",
+				"fileSystem": "input"
+			},
+			"columnDelimiter": ",",
+			"escapeChar": "\\",
+			"firstRowAsHeader": true,
+			"quoteChar": "\""
+		},
+		"schema": []
+	},
+	"type": "Microsoft.DataFactory/factories/datasets"
+}
